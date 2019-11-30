@@ -1,0 +1,20 @@
+{
+    "Subdoc": {
+        "fields": {
+            "field1": "string",
+            "field2": { "type": "number", "required": true }
+        }
+    },
+    "Doc": {
+        "fields": {
+            "field0": "number",
+            "arrayField": { "type": "array", "arrayType": "string" }
+        }
+    },
+    "ExtendedDoc": {
+        "extends": "Doc",
+        "fields": {
+            "field3": "string"
+        }
+    }
+}

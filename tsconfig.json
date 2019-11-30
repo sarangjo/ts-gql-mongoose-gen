@@ -1,0 +1,12 @@
+{
+  "include": ["."],
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2016",
+    "lib": ["dom", "es2016"],
+    "baseUrl": "./src"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "Bad": {
+    "extends": "DoesntExist",
+    "fields": {}
+  }
+}

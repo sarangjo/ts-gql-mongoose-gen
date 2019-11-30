@@ -1,0 +1,22 @@
+{
+  "name": "ts-gql-mongoose-gen",
+  "version": "1.0.0",
+  "description": "Typescript, Mongoose, GQL generator",
+  "main": "generator.ts",
+  "repository": "https://github.com/sarangjo/ts-gql-mongoose-gen.git",
+  "author": "Sarang Joshi <sarangj@msn.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ts-node ./generator.ts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.14",
+    "@types/prettier": "^1.19.0",
+    "lodash": "^4.17.15",
+    "loglevel": "^1.6.6",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
